@@ -1,3 +1,15 @@
+## Project Name.
+
+MovieDB App
+
+## Author Name.
+
+Jackline Chepngeno.
+
+## Project Description.
+
+The app allows users to search for various movies
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
