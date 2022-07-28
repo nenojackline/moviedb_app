@@ -1,22 +1,40 @@
 import React from "react";
+import { Link, Outlet } from "react-router-dom";
 
-function Navbar(){
-    return(
-        <nav className="navbar">
-            <h1>MOVIEDB APP</h1>
-            <ul className="navbar-list">
-                <li>
-                    <form >
-                        <input type="text" id="search-input" placeholder="search item.."></input>
-                        <button type="submit" id="btn-search">Search</button>
-                    </form>
-                </li>
-                <li>Home</li>
-                <li>Movies</li>
-                <li className="dropbtn">Categories</li>
-            </ul>
-        </nav>
-    )
+export default function Navbar() {
+  const fontStyles = {
+    color: "#fff",
+    fontSize: "1.5rem",
+    marginRight: "2rem",
+  };
 
+  return (
+    <>
+      <nav className="navbar navbar-expand-sm bg-dark justify-content-center">
+        <ul className="navbar-nav">
+          <li className="nav-item">
+            <Link className="nav-link" to="/home" style={fontStyles}>
+              Home
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/kids-shoes" style={fontStyles}>
+              About
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/men-shoes" style={fontStyles}>
+              MovieQuotes
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/women-shoes" style={fontStyles}>
+              Search
+            </Link>
+          </li>
+        </ul>
+      </nav>
+      <Outlet />
+    </>
+  );
 }
-export default Navbar;
