@@ -1,19 +1,157 @@
-#movieContainer{
-  display: flex;
-  flex-direction:row;
-  flex-wrap: wrap;
+body{
+  padding: 0;
+}
+#movieContainer, #quoteContainer{
+  display: inline-block;
+  position: relative;
+  left: 2rem;
+  flex-wrap: wrap; 
   overflow-x: auto;
-  justify-content: space-evenly;
+  justify-content: space-evenly; 
 }
 .movieCard{
   margin-left: 0.5rem;
-  margin-bottom: 1rem;
-  height: 80vh;
-  width: 25%;
+  margin-bottom: 3rem;
+  height: 70vh;
+  width: 80%;
   box-shadow: 1.5rem 0.5rem 1rem  rgb(186, 186, 186);
   cursor:pointer;
+  transform: 0.2s;
+  border-top-right-radius: 2rem;
+}
+.movieCard:hover{
+  transform: scale(1.1);
 }
 .moviePoster{
  height: 75%;
  width: 100%;
 }
+.card{
+  height: 55vh;
+ 
+  width: 85%;
+  margin: 2rem;
+  box-shadow: 1.5rem 0.5rem 1rem  rgb(186, 186, 186);
+  cursor: pointer;
+  transform: 0.2s;
+ }
+ .card:hover{
+   transform: scale(1.1);
+ }
+ 
+ nav{
+ 
+   margin-bottom: 5rem;
+ }
+ nav a{
+   text-decoration: none;
+   margin: 10rem;
+   font-size: 1.5rem;
+   transition: 0.1s;
+ }
+ nav a:active, nav a:hover{
+   background-color: black;
+   color: white;
+ }
+ .quoteForm{
+   height: 15rem;
+   width: 30%;
+   border: 1px solid;
+   margin: 1rem;
+ 
+ }
+ .quoteForm p{
+   color: red;
+ }
+ .quoteForm p input{
+   width: 20rem;
+   margin-left: 2rem;
+   height: 2.5rem;
+   border: solid;
+ }
+ 
+ .quoteForm p input:invalid:focus{
+   background-image: linear-gradient(red, lightgreen);
+ }
+ .submitButton{
+   position: relative;
+   left: 30%;
+   background-color: red;
+   color: black;
+   border: none;
+   cursor: progress;
+   height: 2.5rem;
+   width: 8rem;
+   border-top-right-radius: 1rem;
+   border-bottom-left-radius: 1rem;
+ }
+ .submitButton:hover{
+  background-color: black;
+  color: red;
+ }
+ .showForm{
+   position: absolute;
+   top: 4rem;
+   left: 5rem;
+   background-color: red;
+   color: black;
+   border: none;
+   height: 3rem;
+   width: 10rem;
+   margin-bottom: 1rem;
+   font-size: 1.5rem;
+   border-top-right-radius: 1rem;
+   border-bottom-left-radius: 1rem;
+ }
+ .watchButton{
+   color: black;
+   background-color: red ;
+   border: none;
+   height: 2.5rem;
+   width: 8rem;
+   border-top-right-radius: 1rem;
+   border-bottom-left-radius: 1rem;
+ }
+ .like{
+   background-color: red;
+   color: black;
+   border: none;
+   height: 2rem;
+   width: 6rem;
+   margin-right: 2rem;
+   margin-left: 1rem;
+   border-bottom-left-radius: 0.9rem;
+   border-top-right-radius: 0.9rem;
+ }
+ .Favorite{
+   background-color: red;
+   color: black;
+   border: none;
+   height: 2rem;
+   margin-left: 2rem;
+   border-bottom-left-radius: 0.9rem;
+   border-top-right-radius: 0.9rem;
+ }
+ .search{
+   position: absolute;
+   left: 40%;
+   top: 4rem;
+ }
+ .AboutImage{
+   position: absolute;
+   right: 2%;
+   height: 100%;
+   width: 50%;
+ }
+ #About{
+   display: flex;
+   flex-direction: column;
+ }
+ .aboutApp{
+   position: absolute;
+   left: 2%;
+   top: 15rem;
+   height: 100%;
+   width: 50%;
+   font-size: 2.5rem;
+ } 
