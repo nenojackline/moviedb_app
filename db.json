@@ -1,61 +1,186 @@
-
+{
+  "quotes": [
     {
-      "movies": [
-        {
-          "id": 1,
-          "name":"The warrior",
-          "category":"Action",
-          "rating":5,
-          "img": "https://images.unsplash.com/photo-1545630478-cf62cdd247d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
-        },
-        {
-          "id": 2,
-          "name":"The boys",
-          "category":"Action",
-          "rating":5,
-          "img": "https://www.istockphoto.com/photo/lantern-festival-of-confucius-temple-gm636373324-112867357?utm_source=unsplash&utm_medium=affiliate&utm_campaign=adp_photos_sponsored&utm_content=https%3A%2F%2Funsplash.com%2Fphotos%2FaP_hTfwXEkc&utm_term=clarksville%3A%3A%3A"
-        },
-        {
-          "id": 3,
-          "name":"The sea beast",
-          "category":"Action",
-          "rating":5,
-          "img": "https://www.istockphoto.com/photo/lantern-festival-of-confucius-temple-gm636373324-112867357"
-        },
-        {
-          "id": 4,
-          "name":"Girl in the picture",
-          "category":"Action",
-          "rating":5,
-          "img": "https://unsplash.com/photos/ltqqK5I6sLw"
-        },
-        {
-          "id": 5,
-          "name":"Aloners",
-          "category":"Action",
-          "rating":5,
-          "img": "https://www.istockphoto.com/photo/movie-projector-on-black-background-gm1014835152-273160320"
-        },
-        {
-          "id": 6,
-          "name":"c'mon c'mon",
-          "category":"Action",
-          "rating":5,
-          "img": "https://unsplash.com/photos/wMkaMXTJjlQ"
-        },
-        {
-          "id": 7,
-          "name":"Ankle",
-          "category":"Action",
-          "rating":5,
-          "img": "https://unsplash.com/photos/wMkaMXTJjlQ"
-        },
-        {
-          "id": 8,
-          "name":"Mothering sunday",
-          "category":"Action",
-          "rating":5,
-          "img": "https://unsplash.com/photos/wMkaMXTJjlQ"
-        }
-      ]
-  }
+      "id": 1,
+      "movie": "Good will Hunting",
+      "star": "Sean Maguire",
+      "url": "https://everydaypower.com/wp-content/uploads/2019/05/Famous-quotes-from-movies-768x768.jpg",
+      "favorite": false
+    },
+    {
+      "id": 2,
+      "movie": "Fight Club",
+      "star": "Tyler Durden",
+      "url": "https://everydaypower.com/wp-content/uploads/2019/05/Famous-quotes-from-movies-to-inspire-you-768x768.jpg",
+      "favorite": false
+    },
+    {
+      "id": 3,
+      "star": "Dumbledore",
+      "movie": "Harry Potter and the Chamber of Secrets",
+      "url": "https://everydaypower.com/wp-content/uploads/2019/05/Famous-movie-quotes-768x768.jpg"
+    },
+    {
+      "id": 4,
+      "movie": "What a girl wants",
+      "star": "unknown",
+      "url": "https://everydaypower.com/wp-content/uploads/2019/05/famous-movie-quotes-on-fitting-in-768x768.jpg"
+    },
+    {
+      "id": 5,
+      "movie": "The Lion King",
+      "star": "Rafiki",
+      "url": "https://everydaypower.com/wp-content/uploads/2019/05/famous-movie-quotes-about-the-past-768x768.jpg"
+    },
+    {
+      "id": 6,
+      "movie": "Creed II",
+      "star": "Adinis",
+      "url": "https://everydaypower.com/wp-content/uploads/2019/05/famous-movie-quotes-to-make-you-wise-768x768.jpg"
+    },
+    {
+      "id": 7,
+      "movie": "Moonlight",
+      "star": "Juan",
+      "url": "https://everydaypower.com/wp-content/uploads/2019/05/famous-movie-quotes-on-being-your-best-768x768.jpg"
+    },
+    {
+      "id": 8,
+      "movie": "Unknown",
+      "star": "Moulin Rouge",
+      "url": "https://everydaypower.com/wp-content/uploads/2019/05/powerful-Famous-quotes-from-movies-768x768.jpg"
+    },
+    {
+      "id": 9,
+      "movie": "American Beauty",
+      "star": "unknown",
+      "url": "https://everydaypower.com/wp-content/uploads/2019/09/Famous-movie-quotes-about-death-768x768.jpg"
+    },
+    {
+      "id": 10,
+      "movie": "The Notebook",
+      "star": "Nicholas Sparks",
+      "url": "https://everydaypower.com/wp-content/uploads/2019/09/Famous-movie-quotes-that-will-make-you-think-hard-768x768.jpg"
+    },
+    {
+      "id": 11,
+      "movie": "Unknown",
+      "star": "Yoda",
+      "url": "https://everydaypower.com/wp-content/uploads/2019/09/Famous-movie-quotes-768x768.jpg"
+    },
+    {
+      "id": 12,
+      "movie": "Baby",
+      "star": "Dirty Dancing",
+      "url": "https://everydaypower.com/wp-content/uploads/2019/09/Famous-movie-quotes-about-fear-768x768.jpg"
+    },
+    {
+      "id": 13,
+      "movie": "Good will Hunting",
+      "star": "unknown",
+      "url": "https://everydaypower.com/wp-content/uploads/2019/09/Famous-movie-quotes-about-life-768x768.jpg"
+    },
+    {
+      "id": 14,
+      "movie": "Braveheart",
+      "star": "unknown",
+      "url": "https://everydaypower.com/wp-content/uploads/2019/09/thoughtful-Famous-movie-quotes-768x768.jpg"
+    },
+    {
+      "id": 15,
+      "movie": "The Winter Soldier",
+      "star": "Captain America",
+      "url": "https://everydaypower.com/wp-content/uploads/2019/09/Famous-movie-quotes-about-circumstances-768x768.jpg"
+    },
+    {
+      "id": 16,
+      "movie": "Ferris Bueller's Day Off",
+      "star": "Ferris",
+      "url": "https://everydaypower.com/wp-content/uploads/2019/09/Famous-movie-quotes-about-time-768x768.jpg"
+    },
+    {
+      "id": 17,
+      "movie": "The Dark Knight",
+      "star": "The Joker",
+      "url": "https://everydaypower.com/wp-content/uploads/2019/09/Famous-movie-quotes-about-strangers-768x768.jpg"
+    },
+    {
+      "id": 18,
+      "movie": "The Departed",
+      "star": "Frank Costello",
+      "url": "https://everydaypower.com/wp-content/uploads/2019/09/Famous-movie-quotes-to-make-you-wiser-768x768.jpg"
+    },
+    {
+      "id": 19,
+      "movie": "The Fifth Estate",
+      "star": "Julian Assange",
+      "url": "https://everydaypower.com/wp-content/uploads/2019/09/Famous-movie-quotes-about-man-768x768.jpg"
+    },
+    {
+      "id": 20,
+      "movie": "Fury",
+      "star": "Don Collier",
+      "url": "https://everydaypower.com/wp-content/uploads/2019/09/Famous-movie-quotes-about-history-768x768.jpg"
+    },
+    {
+      "id": 21,
+      "movie": "Gandthi(1982)",
+      "star": "Gandhi",
+      "url": "https://everydaypower.com/wp-content/uploads/2019/09/Famous-movie-quotes-about-despair-768x768.jpg"
+    },
+    {
+      "id": 22,
+      "movie": "Blade Runner",
+      "star": "Rutger Hauer",
+      "url": "https://everydaypower.com/wp-content/uploads/2019/09/Famous-movie-quotes-about-tears-768x768.jpg"
+    },
+    {
+      "id": 23,
+      "movie": "Psycho",
+      "star": "Anthony Perkins",
+      "url": "https://everydaypower.com/wp-content/uploads/2019/09/Famous-movie-quotes-about-boys-768x768.jpg"
+    },
+    {
+      "id": 24,
+      "movie": "Dead Poets Society",
+      "star": "Robin Williams",
+      "url": "https://everydaypower.com/wp-content/uploads/2019/09/Famous-movie-quotes-about-seizing-the-day-768x768.jpg"
+    },
+    {
+      "id": 25,
+      "movie": "The Shawshank",
+      "star": "Andy Dufresne",
+      "url": "https://everydaypower.com/wp-content/uploads/2019/09/Famous-movie-quotes-about-living-extraordinary-768x768.jpg"
+    },
+    {
+      "id": 26,
+      "movie": "The Hunger Games",
+      "star": "President Snow",
+      "url": "https://everydaypower.com/wp-content/uploads/2019/09/Famous-movie-quotes-about-hope-768x768.jpg"
+    },
+    {
+      "id": 27,
+      "movie": "The Master",
+      "star": "Philip Seymour Hoffman",
+      "url": "https://everydaypower.com/wp-content/uploads/2019/09/best-movie-quotes-768x768.jpg"
+    },
+    {
+      "id": 28,
+      "movie": "Some Like it Hot",
+      "star": "unknown",
+      "url": "https://everydaypower.com/wp-content/uploads/2019/09/short-movie-quotes-768x768.jpg"
+    },
+    {
+      "id": 29,
+      "movie": "The prestige",
+      "star": "unknown",
+      "url": "https://everydaypower.com/wp-content/uploads/2019/09/movie-quotes-to-motivate-you-768x768.jpg"
+    },
+    {
+      "movie": "Good Will Hunting",
+      "star": "Sean Maguire",
+      "url": "https://godofsmallthing.com/myfiles/2020/04/Inspirational-movie-quotes-700x700.jpg?ezimgfmt=ng:webp/ngcb45",
+      "id": 30
+    }
+  ]
+}
