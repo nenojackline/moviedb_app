@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 function Quotes({ quote }) {
-  const { id, movie, star, url, favorite } = quote;
+  const { id, movie, star, url } = quote;
   const [countLikes, setCountLikes] = useState(0);
 
   function toggleLike() {

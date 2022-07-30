@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
-import NavBar from "./NavBar";
+import Navbar from "./Navbar";
 import "../App.css";
 import Home from "./Home";
 import About from "./About";
@@ -9,7 +8,6 @@ import MovieQuotes from "./MovieQuotes";
 import NewQuotesForm from "./NewQuotesForm";
 
 function App() {
-  const [app, setApp] = useState("/");
   const [quote, setQuote] = useState([])
 
   function getCurrentPage() {
@@ -29,7 +27,7 @@ function onAddQuote(newQuote) {
     <div>
       <h1>MOVIE HUB</h1>
       <Home />
-      <NavBar onChangePage={setApp} />
+      <Navbar />
       {getCurrentPage()}
 
       <Routes>
@@ -53,3 +51,4 @@ function onAddQuote(newQuote) {
     </div>
   );
 }
+export default App
