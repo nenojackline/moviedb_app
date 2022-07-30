@@ -16,7 +16,7 @@ function Movies({ movies }) {
               <h5>Type:{movie.Type}</h5>
               <h5>Title: {movie.Title}</h5>
                     <h5>Year:{movie.Year}</h5>
-                    <button onClick={toggleWatch}>{isWatched?"Watched":"UnWatched"}</button>
+                    <button onClick={toggleWatch} className="watchButton">{isWatched?"Watched":"UnWatched"}</button>
             </div>
           </div>
         );
